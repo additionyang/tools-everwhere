@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box{
+	display: inline-block;
+}
+
+#note{
+	padding:50px;
+}
+
+#input_20160628 {
+  float:left;
+  width: 90%;
+  margin-right: 2em;
+}
+#input_20160628 label {
+  display: block;
+  margin-top: 0.5em;
+}
+#input_20160628 div {
+  margin-top: 0.5em;
+
+}
+#input_20160628 textarea {
+	float:left;
+  width: 90%;
+  height: 60vh;;
+} 
+#result_20160628 {
+	font-size: 8em;
+}
+
+
+
+
+
+#input_20160628-1 {
+  float:left;
+  width: 90%;
+  margin-right: 2em;
+}
+#input_20160628-1 label {
+  display: block;
+  margin-top: 0.5em;
+}
+#input_20160628-1 div {
+  margin-top: 0.5em;
+
+}
+#input_20160628-1 textarea {
+  float:left;
+  width: 90%;
+  height: 60vh;;
+} 
+#result_20160628-1 {
+	font-size: 8em;
+}
+
