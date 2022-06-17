@@ -12,7 +12,7 @@ $(function () {
     }
     if (_lines.length === 1 && _lines[0] === "") {
         //alert("抽出數量必須為數字");
-        _result.html("(請輸入資料)");
+        _result.html("(請輸入工具清單)");
         return;
     }
 
