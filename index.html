@@ -4,29 +4,7 @@
 
 <body>
 	
-	<img src="0.PNG" onclick = "run()" width="100%">
-	<script src="js/jquery-3.4.1.js"></script>
-	<script>
-		var timer;
-		var open = false; 
-		function run(){
-			if(!open){
-				//定時器，每秒運行一次change()
-				timer = setInterval(change,90); 
-				open = true;
-			}else{
-				clearInterval(timer);
-				open = false; 
-			}
-		}
-		function change(){
-			//1<= random <118
-			var random = Math.floor(Math.random()*117+1);//下捨入，去除小數點
-			//拼接圖片路徑
-			var image = "img/trial ("+random+").jpg";
-			$("img").attr("src",image);
-		}
-	</script>
+
 	
 <section>	
 	
