@@ -3,6 +3,31 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 <body>
+	
+	<img src="0.PNG" onclick = "run()" width="100%">
+	<script src="js/jquery-3.4.1.js"></script>
+	<script>
+		var timer;
+		var open = false; 
+		function run(){
+			if(!open){
+				//定時器，每秒運行一次change()
+				timer = setInterval(change,90); 
+				open = true;
+			}else{
+				clearInterval(timer);
+				open = false; 
+			}
+		}
+		function change(){
+			//1<= random <118
+			var random = Math.floor(Math.random()*117+1);//下捨入，去除小數點
+			//拼接圖片路徑
+			var image = "img/trial ("+random+").jpg";
+			$("img").attr("src",image);
+		}
+	</script>
+	
 <section>	
 	
 <!--the first tool-->
@@ -18,6 +43,7 @@
 		</div>
 
 </div>
+	
 <div class="box">
 <!--the second tool-->
 	<script src="jquery.min-1.js"></script>
@@ -37,23 +63,9 @@
 		<div id="result_20160628-1"></div>
 		<div style="clear:both"></div>
 </div>
-<div class="box">
-	<div id="note">
-		<p>隨機抽選兩種工具，「試圖用工具一讓工具二不那麼工具二。」
-		試想這句話的可能性和生產性，無論透過想像、敘述、圖像、實際操作。<br><br>
-			
-		
-		最好不要鞏固原有功能。(這裡不需要更好坐的椅子)<br>
-		最好保留各自原有功能。(一張椅子可以很不椅子但仍有坐的功能)<br>
-		最好不要互相破壞。(除非破壞是抽到的工具的性質之一，盡量不要消滅其中任一工具)<br>
-		歡迎兩種工具以外其他工具的涉入。<br><br>
-			
-		歡迎擴充工具清單。
-		</p>
-	</div>
-</div>
+
 </section>
 </body>
 
 
-<!--original code source: https://codepen.io/pulipuli/pen/oLZXZV-->
+<!--the original source of lottery code : https://codepen.io/pulipuli/pen/oLZXZV-->
