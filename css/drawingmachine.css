@@ -3,6 +3,7 @@
 
 .box{
 	display: inline-block;
+padding: 12px 0;
 }
 
 #note{
@@ -24,16 +25,14 @@
 }
 #input_20160628 textarea {
 	float:left;
-  width: 90%;
-  height: 60vh;;
+	width: 90%;
+	height: 85vh;;
 } 
 #result_20160628 {
-	font-size: 8em;
+	font-size: 4em;
+
+
 }
-
-
-
-
 
 #input_20160628-1 {
   float:left;
@@ -51,12 +50,21 @@
 #input_20160628-1 textarea {
   float:left;
   width: 90%;
-  height: 60vh;;
+  height: 85vh;;
 } 
 #result_20160628-1 {
-	font-size: 8em;
+	font-size: 4em;
+
+
 }
 
 .box p{
 	line-height: 1.6em;
+}
+
+img{
+	float:right;
+	display:block;
+	margin:0 auto;
+	width: 300px;
 }
