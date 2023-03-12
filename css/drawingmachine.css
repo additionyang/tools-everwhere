@@ -1,70 +1,89 @@
 @charset "utf-8";
 /* CSS Document */
 
-.box{
-	display: inline-block;
-padding: 12px 0;
+.box1{
+display: inline-block;
+margin-right: 600px;
+margin-left: 0px;
+
 }
 
-#note{
-	padding:50px;
+.box2{
+display: inline-block;
+	float: right;
+margin-left: 600px;
+margin-right: 0px;
+
 }
+
+.box0{
+display:inherit;
+width:100%;
+line-height:normal;
+	margin-top:200px;
+}
+
+
 
 #input_20160628 {
-  float:left;
+  float:inherit;
   width: 90%;
-  margin-right: 2em;
+  margin-right:0;
 }
 #input_20160628 label {
-  display: block;
+  display: none;
   margin-top: 0.5em;
 }
 #input_20160628 div {
   margin-top: 0.5em;
+}
 
+#input_20160628 button {
+  height: 40px;
+	width:100%;
 }
 #input_20160628 textarea {
-	float:left;
-	width: 90%;
-	height: 85vh;;
+	float:inherit;
+	width: 97%;
+	height: 30vh;;
+	margin-bottom:7px;
 } 
 #result_20160628 {
-	font-size: 4em;
-
-
+	font-size: 3em;
+	float:left;
 }
+
+
 
 #input_20160628-1 {
-  float:left;
+  float:inherit;
   width: 90%;
-  margin-right: 2em;
+  margin-right:0;
 }
 #input_20160628-1 label {
-  display: block;
+  display: none;
   margin-top: 0.5em;
 }
 #input_20160628-1 div {
   margin-top: 0.5em;
 
 }
+
+#input_20160628-1 button {
+  height: 40px;
+	width:100%;
+}
 #input_20160628-1 textarea {
   float:left;
-  width: 90%;
-  height: 85vh;;
+  width: 97%;
+  height: 30vh;;
+	margin-bottom:7px;
 } 
 #result_20160628-1 {
-	font-size: 4em;
-
-
-}
-
-.box p{
-	line-height: 1.6em;
-}
-
-img{
+	font-size: 3em;
+	text-align:right;
 	float:right;
-	display:block;
-	margin:0 auto;
-	width: 300px;
 }
+
+
+
